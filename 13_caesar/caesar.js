@@ -13,7 +13,6 @@ const caesar = function (plainText, shift) {
   return encrypted;
 }
 
-//TODO
 function getNewIndex(char, shift) {
   shift = shift % LOWERCASEALPHABET.length;
   if (shift < 0) shift += 26;
